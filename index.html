@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solutions & Automations (S&A) Global</title>
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f8fafc;
+color:#0f172a;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+nav{
+background:#0f172a;
+color:white;
+padding:15px 0;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav .nav-wrapper{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:20px;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:14px;
+}
+
+.cta-btn{
+background:#2563eb;
+color:white;
+padding:10px 18px;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+padding:80px 0;
+background:white;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.hero-diagram{
+background:#f1f5f9;
+padding:30px;
+border-radius:10px;
+text-align:center;
+font-size:16px;
+}
+
+section{
+padding:70px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:32px;
+margin-bottom:40px;
+}
+
+.problem-list{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+font-size:18px;
+}
+
+.card-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.steps{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+.step{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.audit{
+background:#2563eb;
+color:white;
+text-align:center;
+}
+
+.audit form{
+margin-top:30px;
+max-width:500px;
+margin-left:auto;
+margin-right:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.audit input, .audit textarea{
+padding:12px;
+border:none;
+border-radius:6px;
+}
+
+.audit button{
+padding:12px;
+border:none;
+background:#0f172a;
+color:white;
+font-weight:bold;
+border-radius:6px;
+cursor:pointer;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:30px 0;
+font-size:14px;
+}
+
+/* Tablet */
+@media(max-width:900px){
+
+.hero-grid{
+grid-template-columns:1fr;
+}
+
+.card-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.steps{
+grid-template-columns:repeat(2,1fr);
+}
+
+.problem-list{
+grid-template-columns:1fr;
+}
+
+}
+
+/* Mobile */
+@media(max-width:600px){
+
+nav ul{
+display:none;
+}
+
+.hero h1{
+font-size:30px;
+}
+
+.card-grid{
+grid-template-columns:1fr;
+}
+
+.steps{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="container nav-wrapper">
+<div class="logo">Solutions & Automations (S&A) Global</div>
+<ul>
+<li><a href="#solutions">Solutions</a></li>
+<li><a href="#process">How It Works</a></li>
+<li><a href="#audit">Free Audit</a></li>
+</ul>
+<a class="cta-btn" href="#audit">Book Free Audit</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container hero-grid">
+
+<div>
+<h1>Automate Your Business Workflows With AI</h1>
+<p>S&A Global helps businesses eliminate repetitive work, improve efficiency, and scale operations using modern automation systems.</p>
+<a class="cta-btn" href="#audit">Get Free Automation Audit</a>
+</div>
+
+<div class="hero-diagram">
+Lead → CRM → Email → Calendar → Dashboard
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2 class="section-title">Manual Processes Are Slowing Your Business Down</h2>
+
+<div class="problem-list">
+<div>• Leads manually entered into spreadsheets</div>
+<div>• Slow responses to customer inquiries</div>
+<div>• Repetitive reporting tasks</div>
+<div>• Missed follow-ups with prospects</div>
+</div>
+
+</div>
+</section>
+
+<section id="solutions">
+<div class="container">
+<h2 class="section-title">Automation Solutions</h2>
+
+<div class="card-grid">
+
+<div class="card">
+<h3>Lead Capture Automation</h3>
+<p>Automatically capture and organize leads from your website and social media.</p>
+</div>
+
+<div class="card">
+<h3>Customer Support Automation</h3>
+<p>AI-powered systems that instantly answer common customer questions.</p>
+</div>
+
+<div class="card">
+<h3>Internal Workflow Automation</h3>
+<p>Remove repetitive internal tasks and streamline operations.</p>
+</div>
+
+<div class="card">
+<h3>Marketing Automation</h3>
+<p>Automated email sequences and follow-ups that convert leads.</p>
+</div>
+
+<div class="card">
+<h3>Reporting Automation</h3>
+<p>Real-time dashboards and automated business reports.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="process">
+<div class="container">
+<h2 class="section-title">How It Works</h2>
+
+<div class="steps">
+
+<div class="step">
+<h3>1</h3>
+<p>Free Automation Audit</p>
+</div>
+
+<div class="step">
+<h3>2</h3>
+<p>Automation Strategy</p>
+</div>
+
+<div class="step">
+<h3>3</h3>
+<p>Implementation</p>
+</div>
+
+<div class="step">
+<h3>4</h3>
+<p>Monitoring & Optimization</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="audit" id="audit">
+<div class="container">
+
+<h2 class="section-title">Get Your Free Automation Audit</h2>
+<p>Discover where automation can save time in your business.</p>
+
+<form>
+<input type="text" placeholder="Name" required>
+<input type="email" placeholder="Email" required>
+<input type="text" placeholder="Company">
+<textarea placeholder="Biggest workflow problem"></textarea>
+<button type="submit">Request Free Audit</button>
+</form>
+
+</div>
+</section>
+
+<footer>
+Solutions & Automations (S&A) Global | Business Automation Consulting
+</footer>
+
+</body>
+</html>
